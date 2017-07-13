@@ -353,7 +353,7 @@ signed char index_64[] = {
 + (id) bCrypt {
 
 	id bCrypt = [[JFBCrypt alloc] init];
-	[bCrypt autorelease];
+//	[bCrypt autorelease];
 	
 	return bCrypt;
 }
@@ -366,7 +366,7 @@ signed char index_64[] = {
 	JFFree(_p);
 	JFFree(_s);
 	
-	[super dealloc];
+//	[super dealloc];
 }
 
 /*
